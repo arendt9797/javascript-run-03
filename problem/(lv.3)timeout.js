@@ -11,7 +11,17 @@
  * @returns {Promise<any>} - 먼저 완료된 Promise의 결과를 반환하는 Promise
  */
 
-async function timeOut(promise, ms) {}
+async function timeOut(promise, ms) {
+    return new Promise((resolve, reject) => {
+        let duration = 0
+        
+        if (){
+            resolve()
+        } else {
+            reject("timeout")
+        }
+    })
+}
 
 // export를 수정하지 마세요.
 export { timeOut };
